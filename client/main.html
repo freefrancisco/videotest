@@ -1,5 +1,5 @@
 <body>
-  {{> iframe}}
+	{{> iframe}}
 </body>
 
 <template name="iframe">
@@ -13,7 +13,7 @@
 	Selected: {{role}} </h4>
 	<p> After making a selection, your video should appear below: </p>
 	{{#if technology}} {{#if role}}
-	<iframe src="/{{technology}}{{role}}.html"></iframe>
+	<iframe src="/{{technology}}{{role}}.html" width="100%" height="300" class="tutorial"></iframe>
 	{{/if}}{{/if}}
 </template>
 
