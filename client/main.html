@@ -1,0 +1,19 @@
+<body>
+  {{> iframe}}
+</body>
+
+<template name="iframe">
+	<h4> Technology?
+  <input type="button" class = "webrtc" value="webrtc" />
+  <input type="button" class = "flash" value="flash" />
+	Selected: {{technology}} </h4>
+	<h4> Role?
+  <input type="button" class = "coach" value="coach" />
+  <input type="button" class = "user" value="user" />
+	Selected: {{role}} </h4>
+	<p> After making a selection, your video should appear below: </p>
+	{{#if technology}} {{#if role}}
+	<iframe src="/{{technology}}{{role}}.html"></iframe>
+	{{/if}}{{/if}}
+</template>
+

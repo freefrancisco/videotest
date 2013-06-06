@@ -1,0 +1,1 @@
+session.addEventListener("sessionConnected", sessionConnectedHandler);
