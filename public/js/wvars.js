@@ -2,3 +2,6 @@ var apiKey = 1127;
 var sessionID = "1_MX4xMTI3fn5UaHUgSnVuIDA2IDAwOjQzOjEwIFBEVCAyMDEzfjAuOTEyMDM1MDV-";
 var tokenID = "T1==cGFydG5lcl9pZD0xMTI3JnNpZz00ZWVmYWNiOTY2NWYxMTlmNmY0ZGFkMzNiNmJlMDQzMTZkYTc1YzQ3OnNlc3Npb25faWQ9MV9NWDR4TVRJM2ZuNVVhSFVnU25WdUlEQTJJREF3T2pRek9qRXdJRkJFVkNBeU1ERXpmakF1T1RFeU1ETTFNRFYtJmNyZWF0ZV90aW1lPTEzNzA1MDQ2MDUmbm9uY2U9NzM5NDA3JnJvbGU9cHVibGlzaGVy";
 
+console.log("webrtc session id", sessionID);
+console.log("webrtc token id", tokenID);
+
